@@ -45,3 +45,7 @@ html,body{
   font-family: Gilroy-UltraLight;
   src: url("/fonts/Gilroy-UltraLight.woff2") format(woff2)
 }
+
+::selection{
+  color: rgb(10, 109, 222);
+}
