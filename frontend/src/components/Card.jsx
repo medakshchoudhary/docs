@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 const Card = ({data,reference}) => {
 
   return (
-    <motion.div drag whileDrag={{ scale: 1.2}} dragConstraints={reference} className='relative w-52 h-60 rounded-[50px] px-6 py-8 bg-zinc-900/90 text-white overflow-hidden'>
+    <motion.div drag whileDrag={{ scale: 1.1}} dragConstraints={reference} className='relative w-52 h-60 rounded-[50px] px-6 py-8 bg-zinc-900/90 text-white overflow-hidden'>
         <FiFileText />
         <p className='mt-4 h-20 leading-tight text-sm overflow-hidden mask-b-from-10'>{data.desc}</p>
         <div className="footer w-full absolute bottom-0 left-0">
